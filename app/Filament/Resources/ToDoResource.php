@@ -86,6 +86,7 @@ class ToDoResource extends Resource
                         'completed' => 'green',
                     ])
                     ->icon('heroicon-o-ellipsis-horizontal-circle')
+                    ->sortable()
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
