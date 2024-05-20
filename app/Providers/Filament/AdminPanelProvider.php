@@ -50,7 +50,10 @@ class AdminPanelProvider extends PanelProvider
                     ->label('Benutzer')
                     ->icon('heroicon-o-tag'),
                 NavigationGroup::make()
-                    ->label('Kunden Kontakt')
+                    ->label('Kunden Kontakt'),
+                NavigationGroup::make()
+                    ->label('To-Do')
+                ->icon('heroicon-o-clipboard-document-list'),
             ])
             ->font('Manrope')
             ->colors([
